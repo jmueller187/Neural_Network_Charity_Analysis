@@ -12,7 +12,7 @@ The dataset included the following columns of captured metadata about each organ
 We used this data to address the following questions:
 
 ### Data Preprocessing -<br>
-#### 1. What variable is considered the target(s) for your model?
+#### 1. What variable is considered the target for your model?
 - We chose the IS_SUCCESSFUL column of the dataset at the model target, as this column listed whether or not the money received by an organization was used effectively.
 
 #### 2. What variables are considered to be the features for your model?
