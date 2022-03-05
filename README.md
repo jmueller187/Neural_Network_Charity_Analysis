@@ -38,23 +38,20 @@ We used this data to address the following questions:
 - The target predictive accuracy for model performance was 75%. In our initial evaluation, we were unable to meet the target model performance, as our model accuracy ended up being 72.6%.<br>
 ![Initial Evaluation Results](https://github.com/jmueller187/Neural_Network_Charity_Analysis/blob/main/Resources/InitialEvaluationResults.png)
 
-#### 6. What steps did you take to try and increase model performance?
+#### 6. What steps did you take to try and increase model performance?<br>
 - We made four attemps to increase model performance:
         - Attempt 1: Increased neurons in each hidden layer - Layer 1 = 100 neurons, Layer 2 = 50 neurons<br>
         - Result: Model accuracy = 72.7%<br>
         ![Optimization Attempt 1](https://github.com/jmueller187/Neural_Network_Charity_Analysis/blob/main/Resources/OptimizationAttempt1.png)
-
         - Attempt 2: Added third hidden layer to create deep learning model-
             - Layer 1 = 3 X's number of input features<br>
             - Layer 2 = 1 X's number of input features<br>
             - Layer 3 = 0.5 X's number of input features<br>
         - Result: Model accuracy = 72.5%<br>
         ![Optimization Attempt 2](https://github.com/jmueller187/Neural_Network_Charity_Analysis/blob/main/Resources/OptimizationAttempt2.png)
-
         - Attempt 3: Changed the model activation function - Ran the deep learning model using the Tanh activation function<br>
         - Result: Model accuracy = 72.5%<br>
         ![Optimization Attempt 3](https://github.com/jmueller187/Neural_Network_Charity_Analysis/blob/main/Resources/OptimizationAttempt3.png)
-
         - Attempt 4: Increased the deep learning model Epochs to 200<br>
         - Result: Model accuracy = 72.5%<br>
         ![Optimization Attempt 3](https://github.com/jmueller187/Neural_Network_Charity_Analysis/blob/main/Resources/OptimizationAttempt4.png)
