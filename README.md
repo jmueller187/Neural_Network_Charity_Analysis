@@ -43,7 +43,7 @@ We used this data to address the following questions:
         - Attempt 1: Increased neurons in each hidden layer - Layer 1 = 100 neurons, Layer 2 = 50 neurons<br>
         - Result: Model accuracy = 72.7%<br>
         ![Optimization Attempt 1](https://github.com/jmueller187/Neural_Network_Charity_Analysis/blob/main/Resources/OptimizationAttempt1.png)<br>
-        - Attempt 2: Added third hidden layer to create deep learning model-
+        - Attempt 2: Added third hidden layer to create deep learning model-<br>
             - Layer 1 = 3 X's number of input features<br>
             - Layer 2 = 1 X's number of input features<br>
             - Layer 3 = 0.5 X's number of input features<br>
