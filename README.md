@@ -42,7 +42,7 @@ We used this data to address the following questions:
 - We made four attemps to increase model performance:<br>
         - Attempt 1: Increased neurons in each hidden layer - Layer 1 = 100 neurons, Layer 2 = 50 neurons<br>
         - Result: Model accuracy = 72.7%<br>
-        ![Optimization Attempt 1](https://github.com/jmueller187/Neural_Network_Charity_Analysis/blob/main/Resources/OptimizationAttempt1.png)<bbr>
+        ![Optimization Attempt 1](https://github.com/jmueller187/Neural_Network_Charity_Analysis/blob/main/Resources/OptimizationAttempt1.png)<br>
         - Attempt 2: Added third hidden layer to create deep learning model-
             - Layer 1 = 3 X's number of input features<br>
             - Layer 2 = 1 X's number of input features<br>
@@ -57,4 +57,4 @@ We used this data to address the following questions:
         ![Optimization Attempt 3](https://github.com/jmueller187/Neural_Network_Charity_Analysis/blob/main/Resources/OptimizationAttempt4.png)
 
 ## Summary: 
-After making four attempts at optimizing our model, we were unable to increase our model performance above the 75% target accuracy, as each of our optimization attempts ended up with an accuracy just under 73%. We would recommend either performing additional preprocessing on the input in case other variables or outliers are causing model confustion or attempt using a non neural network model such as a Support Vector Machine or Random Forest to evaluate the data. The data we evaluated might be of a size and structure that is better suited for the supervised machine learning models and result in improving our target model performance.
+After making four attempts at optimizing our model, we were unable to increase our model performance above the 75% target accuracy, as each of our optimization attempts ended up with an accuracy just under 73%. We would recommend either performing additional preprocessing on the input data to ensure other variables or outliers are not causing model confustion or attempt using a non neural network model such as a Support Vector Machine or Random Forest to evaluate the data. The data we evaluated might be of a size and structure that is better suited for the supervised machine learning models and result in improving our target model performance.
