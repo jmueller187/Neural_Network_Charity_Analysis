@@ -5,17 +5,17 @@ Explore and implement neural networks using the TensorFlow platform in Python
 For this project we were tasked with using the Tensorflow platform to build neural networks and deep learning networks in order to analyze a nonprofit foundation dataset. We were able to use the features in the provided dataset to design binary classifiers, which were then used to predict whether applicants will be successful if funded by the foundation.
 
 ## Results:
-The dataset included a number of columns captured metadata about each organization as shown below:
+The dataset included the following columns of captured metadata about each organization:
 
 ![Dataset Columns](https://github.com/jmueller187/Neural_Network_Charity_Analysis/blob/main/Resources/DatesetColumns.png)
 
 We used this data to address the following questions:
 
 ### Data Preprocessing -<br>
-#### 1. What variable(s) are considered the target(s) for your model?
+#### 1. What variable is considered the target(s) for your model?
 - We chose the IS_SUCCESSFUL column of the dataset at the model target, as this column listed whether or not the money received by an organization was used effectively.
 
-#### 2. What variable(s) are considered to be the features for your model?
+#### 2. What variables are considered to be the features for your model?
 - The features of our model included these columns:
     - APPLICATION_TYPE
     - AFFILIATION
@@ -27,7 +27,7 @@ We used this data to address the following questions:
     - SPECIAL_CONSIDERATIONS
     - ASK_AMT
 
-#### 3. What variable(s) are neither targets nor features, and should be removed from the input data?
+#### 3. What variables are neither targets nor features, and should be removed from the input data?
 - We chose to remove the EIN and NAME columns from the input data as they were identification columns and did not contain data that would contribute to our overall analysis
 
 ### Compiling, Training, and Evaluating the Model -<br>
